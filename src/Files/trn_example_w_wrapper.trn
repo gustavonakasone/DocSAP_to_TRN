@@ -1,0 +1,157 @@
+BEG^6^1^20241118^120501^0^Y~
+WRAPHDR^ZINVOIC^00^EDI_DC40^Cabeçalho de IDOC - Release 4.0^F^^^^^^^0^^^^^^^^appl/ZIEDIDC0.txt^APP.ZIEDIDC0^2EDK01^^T^^^False^~
+WRAPDTL^1^10^^EDI_DC^M^^0^1~
+SEGHDR^ZINVOIC^00^2EDK01^Cabeçalho do Doc - Dados gerais^^F^^~
+SEGDTL^1^F001^O^^0^~
+SEGDTL^2^SEGNAM^M^0^T^~
+SEGDTL^3^0023^O^^^~
+SEGDTL^4^MANDT^O^^0^~
+SEGDTL^5^DOCNUM^O^^0^~
+SEGDTL^6^SEGNUM^O^^0^~
+SEGDTL^7^PSGNUM^O^^0^~
+SEGDTL^8^HLEVEL^O^^0^~
+SEGDTL^10^ACTION^O^^0^~
+SEGDTL^20^KZABS^O^^0^~
+SEGDTL^30^CURCY^O^^0^~
+SEGDTL^40^HWAER^O^^0^~
+SEGDTL^50^WKURS^O^^0^~
+SEGDTL^60^ZTERM^O^^0^~
+SEGDTL^70^KUNDE1^O^^0^~
+SEGDTL^80^EIGEN1^O^^0^~
+SEGDTL^90^BSART^O^^0^~
+SEGDTL^100^BELNR1^O^^0^~
+SEGDTL^110^NTGEW^O^^0^~
+SEGDTL^120^BRGEW^O^^0^~
+SEGDTL^130^GEWEI^O^^0^~
+SEGDTL^140^FKART1^O^^0^~
+SEGDTL^150^ABLAD1^O^^0^~
+SEGDTL^160^BSTZD1^O^^0^~
+SEGDTL^170^VSART^O^^0^~
+SEGDTL^180^VSART1^O^^0^~
+SEGDTL^190^RECIP1^O^^0^~
+SEGDTL^200^KZAZU^O^^0^~
+SEGDTL^210^AUTLF^O^^0^~
+SEGDTL^220^AUGRU^O^^0^~
+SEGDTL^230^AUGRU1^O^^0^~
+SEGDTL^240^ABRVW^O^^0^~
+SEGDTL^250^ABRVW2^O^^0^~
+SEGDTL^260^FKTYP^O^^0^~
+SEGDTL^270^LIFSK^O^^0^~
+SEGDTL^280^LIFSKB^O^^0^~
+SEGDTL^290^EMPST^O^^0^~
+SEGHDR^ZINVOIC^00^EDI_DC^Header de mensagem IDOC^^F^^~
+SEGDTL^10^0001^M^22^0^~
+SEGDTL^20^C0001^O^^0^~
+SEGDTL^30^MANDT^O^^0^~
+SEGDTL^40^DOCNUM^O^0^0^~
+SEGDTL^50^DOCREL^O^^0^~
+SEGDTL^60^STATUS^O^^0^~
+SEGDTL^70^DIRECT^O^0^0^~
+SEGDTL^80^OUTMOD^O^^0^~
+SEGDTL^90^EXPRSS^O^^0^~
+SEGDTL^100^TEST^O^^0^~
+SEGDTL^110^IDOCTY^O^0^0^~
+SEGDTL^120^CIMTYP^O^^0^~
+SEGDTL^130^MESTYP^O^^0^~
+SEGDTL^140^MESCOD^O^^0^~
+SEGDTL^150^MESFCT^O^^0^~
+SEGDTL^160^STD^O^^0^~
+SEGDTL^170^STDVRS^O^^0^~
+SEGDTL^180^STDMES^O^^0^~
+SEGDTL^190^SNDPOR^O^^0^~
+SEGDTL^200^SNDPRT^O^^0^~
+SEGDTL^210^SNDPFC^O^^0^~
+SEGDTL^220^SNDPRN^O^1^0^~
+SEGDTL^230^SNDSAD^O^0^0^~
+SEGDTL^240^SNDLAD^O^^0^~
+SEGDTL^250^RCVPOR^O^^0^~
+SEGDTL^260^RCVPRT^O^^0^~
+SEGDTL^270^RCVPFC^O^^0^~
+SEGDTL^280^RCVPRN^O^4^0^~
+SEGDTL^290^RCVSAD^O^^0^~
+SEGDTL^300^RCVLAD^O^0^0^~
+SEGDTL^310^CREDAT^O^12^0^~
+SEGDTL^320^CRETIM^O^13^0^~
+SEGDTL^330^REFINT^O^0^0^~
+SEGDTL^340^REFGRP^O^0^0^~
+SEGDTL^350^REFMES^O^^0^~
+SEGDTL^360^ARCKEY^O^^0^~
+SEGDTL^370^SERIAL^O^^0^~
+ELEHDR^ZINVOIC^00^0001^Nome do segmento^^^A^6^6^E~
+ELEHDR^ZINVOIC^00^0023^Filler 23^^^A^1^23^E~
+ELEHDR^ZINVOIC^00^ABLAD1^Local de descarga Orders^^^A^1^25^E~
+ELEHDR^ZINVOIC^00^ABRVW^Cód. utilizaçao solicitaçoes de remessa^^^A^1^3^E~
+ELEHDR^ZINVOIC^00^ABRVW2^Denominaçao^^^A^1^20^E~
+ELEHDR^ZINVOIC^00^ACTION^Cód. de açao a respeito de toda mensagem EDI^^^A^1^3^E~
+ELEHDR^ZINVOIC^00^ARCKEY^Chave do arquivo EDI^^^A^1^70^E~
+ELEHDR^ZINVOIC^00^AUGRU^Motivo da ordem (motivo da operaçao)^^^A^1^3^E~
+ELEHDR^ZINVOIC^00^AUGRU1^Denominaçao^^^A^1^40^E~
+ELEHDR^ZINVOIC^00^AUTLF^Remessa completa por ordem^^^A^1^1^E~
+ELEHDR^ZINVOIC^00^BELNR1^IDOC número documento^^^A^1^35^E~
+ELEHDR^ZINVOIC^00^BRGEW^Peso líquido^^^A^1^18^E~
+ELEHDR^ZINVOIC^00^BSART^Tipo de documento de compra^^^A^1^4^E~
+ELEHDR^ZINVOIC^00^BSTZD1^Suplemento do nr. pedido do cliente^^^A^1^4^E~
+ELEHDR^ZINVOIC^00^C0001^Complemento do EDI_DC^F^^A^1^4^E~
+ELEHDR^ZINVOIC^00^CIMTYP^Nome do tipo de extensao^^^A^1^30^E~
+ELEHDR^ZINVOIC^00^CREDAT^Data da criaçao do documento intermediário^^^A^1^8^E~
+ELEHDR^ZINVOIC^00^CRETIM^Hora da criaçao do documento intermediário^^^A^1^6^E~
+ELEHDR^ZINVOIC^00^CURCY^Moeda^^^A^1^3^E~
+ELEHDR^ZINVOIC^00^DIRECT^Direçao^^^A^1^1^E~
+ELEHDR^ZINVOIC^00^DOCNUM^Número documento intermediário^^^A^1^16^E~
+ELEHDR^ZINVOIC^00^DOCREL^Release SAP do documento intermediário^^^A^1^4^E~
+ELEHDR^ZINVOIC^00^EIGEN1^Número identificaçao fiscal IVA^^^A^1^20^E~
+ELEHDR^ZINVOIC^00^EMPST^Local de Recebimento^^^A^1^25^E~
+ELEHDR^ZINVOIC^00^EXPRSS^Overriding in inbound processing^^^A^1^1^E~
+ELEHDR^ZINVOIC^00^F001^Filler de 1 posicao^F^^A^1^1^E~
+ELEHDR^ZINVOIC^00^FKART1^Tipo de lista de faturas^^^A^1^4^E~
+ELEHDR^ZINVOIC^00^FKTYP^Categoria de Documento de Faturamento^^^A^1^1^E~
+ELEHDR^ZINVOIC^00^GEWEI^Unidade de peso^^^A^1^3^E~
+ELEHDR^ZINVOIC^00^HLEVEL^Nível de hierarquia do segmento SAP^^^A^1^2^E~
+ELEHDR^ZINVOIC^00^HWAER^Moeda interna EDI^^^A^1^3^E~
+ELEHDR^ZINVOIC^00^IDOCTY^Tipo de IDOC básico^^^A^1^30^E~
+ELEHDR^ZINVOIC^00^KUNDE1^Número identificaçao fiscal IVA^^^A^1^20^E~
+ELEHDR^ZINVOIC^00^KZABS^Cód. p/obrigatoriedade confirmaçao de ordem^^^A^1^1^E~
+ELEHDR^ZINVOIC^00^KZAZU^Cód. de processamento conjunto de ordens^^^A^1^1^E~
+ELEHDR^ZINVOIC^00^LIFSK^Bloqueio de Nota de Remessa^^^A^1^2^E~
+ELEHDR^ZINVOIC^00^LIFSKB^Denominaçao^^^A^1^20^E~
+ELEHDR^ZINVOIC^00^MANDT^Mandante^^^A^1^3^E~
+ELEHDR^ZINVOIC^00^MESCOD^Variante lógica de mensagem^^^A^1^3^E~
+ELEHDR^ZINVOIC^00^MESFCT^Funçao lógica de mensagem^^^A^1^3^E~
+ELEHDR^ZINVOIC^00^MESTYP^Nome da mensagem lógica^^^A^1^30^E~
+ELEHDR^ZINVOIC^00^NTGEW^Peso líquido^^^A^1^18^E~
+ELEHDR^ZINVOIC^00^OUTMOD^Modo de saída^^^A^1^1^E~
+ELEHDR^ZINVOIC^00^PSGNUM^Número do segmento SAP superior^^^A^1^6^E~
+ELEHDR^ZINVOIC^00^RCVLAD^Endereço lógico do receptor^^^A^1^70^E~
+ELEHDR^ZINVOIC^00^RCVPFC^Funçao de parceiro do receptor^^^A^1^2^E~
+ELEHDR^ZINVOIC^00^RCVPOR^Porta do receptor (sist. SAP, subsist. EDI)^^^A^1^10^E~
+ELEHDR^ZINVOIC^00^RCVPRN^Número parceiro do receptor^^^A^1^10^E~
+ELEHDR^ZINVOIC^00^RCVPRT^Tipo de parceiro do receptor^^^A^1^2^E~
+ELEHDR^ZINVOIC^00^RCVSAD^EDI: SADR  fields in total^^^A^1^21^E~
+ELEHDR^ZINVOIC^00^RECIP1^Número Receptor (p/controle via modelo ALE)^^^A^1^10^E~
+ELEHDR^ZINVOIC^00^REFGRP^Referência ao grupo de mensagens^^^A^1^14^E~
+ELEHDR^ZINVOIC^00^REFINT^Referência ao file de transferência^^^A^1^14^E~
+ELEHDR^ZINVOIC^00^REFMES^Referência a mensagem^^^A^1^14^E~
+ELEHDR^ZINVOIC^00^SEGNAM^Complemento do Nome do Segmento^F^^A^1^6^E~
+ELEHDR^ZINVOIC^00^SEGNUM^Número segmento SAP^^^A^1^6^E~
+ELEHDR^ZINVOIC^00^SERIAL^EDI/ALE: campo de serializaçao^^^A^1^20^E~
+ELEHDR^ZINVOIC^00^SNDLAD^Endereço lógico do emissor^^^A^1^70^E~
+ELEHDR^ZINVOIC^00^SNDPFC^Funçao do parceiro do emissor^^^A^1^2^E~
+ELEHDR^ZINVOIC^00^SNDPOR^Porta do emissor (Sist. SAP, subsist. EDI)^^^A^1^10^E~
+ELEHDR^ZINVOIC^00^SNDPRN^Número parceiro do emissor^^^A^1^10^E~
+ELEHDR^ZINVOIC^00^SNDPRT^Tipo de parceiro do emissor^^^A^1^2^E~
+ELEHDR^ZINVOIC^00^SNDSAD^EDI: SADR fields in total^^^A^1^21^E~
+ELEHDR^ZINVOIC^00^STATUS^Status do documento intermediário^^^A^1^2^E~
+ELEHDR^ZINVOIC^00^STD^Padrao EDI^^^A^1^1^E~
+ELEHDR^ZINVOIC^00^STDMES^Categoria de mensagem EDI^^^A^1^6^E~
+ELEHDR^ZINVOIC^00^STDVRS^Versao do padrao EDI^^^A^1^6^E~
+ELEHDR^ZINVOIC^00^TEST^Opçao de teste^^^A^1^1^E~
+ELEHDR^ZINVOIC^00^VSART^Tipo de expediçao^^^A^1^2^E~
+ELEHDR^ZINVOIC^00^VSART1^Denominaçao do tipo de expediçao^^^A^1^20^E~
+ELEHDR^ZINVOIC^00^WKURS^Taxa de câmbio^^^A^1^12^E~
+ELEHDR^ZINVOIC^00^ZTERM^Chave de condiçoes de pagamento^^^A^1^17^E~
+STDDEF^ZINVOIC^00^IDOC INVOIC01 para interface com SAP^^F^\x0A\x0D\x00\x20\x09~
+STDTYPE^A^1^"\x00-\xff"^~
+SEP^====================End of Detail Section===================~
+WRAPHDR^ZINVOIC^00^EDI_DC40^Cabeçalho de IDOC - Release 4.0~
+STDDEF^ZINVOIC^00^IDOC INVOIC01 para interface com SAP~
+END^157^20241118^120501~
